@@ -15,11 +15,12 @@ python -m pip install manim
 ## Initialize Manim Folder
 manim init project project
 
-## Navigate to Project and open vs code
+## Open vs code
 code .
 
 ## Select Interpreter using Command Line Palette
 Select Python Interpreter from within virtual environment (should be recommended)
 
-## Running Manim to create circle
+## Navigate to Project Folder and Running Manim to create circle
+cd project
 manim -pql scene.py CreateCircle
